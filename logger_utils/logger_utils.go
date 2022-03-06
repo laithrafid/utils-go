@@ -18,7 +18,7 @@ var (
 	log logger_utils
 )
 
-type bookstorelogger_utils interface {
+type bookstorelogger interface {
 	Print(v ...interface{})
 	Printf(format string, v ...interface{})
 }
@@ -71,7 +71,7 @@ func getOutput() string {
 	return output
 }
 
-func Getlogger_utils() bookstorelogger_utils {
+func Getlogger() bookstorelogger {
 	return log
 }
 
