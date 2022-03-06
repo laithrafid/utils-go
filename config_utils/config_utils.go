@@ -11,8 +11,12 @@ type Config struct {
 	UsersApiAddress string `mapstructure:"USERS_API_ADDRESS"`
 	OauthApiAddress string `mapstructure:"OAUTH_API_ADDRESS"`
 	ItemsApiAddress string `mapstructure:"ITEMS_API_ADDRESS"`
+	GnewsApiAddress string `mapstructure:"GNEWS_API_ADDRESS"`
 	CassDBSource    string `mapstructure:"CASS_DB_SOURCE"`
+	CassDBnodes     string `mapstructure:"CASS_DB_NODES"`
 	CassDBKeyspace  string `mapstructure:"CASS_DB_KEYSPACE"`
+	CassDBKeyspace2 string `mapstructure:"CASS_DB_KEYSPACE2"`
+	GnewsApiKey     string `mapstructure:"GNEWS_API_KEY"`
 	ElasticHosts    string `mapstructure:"ELASTIC_HOSTS"`
 }
 
