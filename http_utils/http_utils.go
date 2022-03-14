@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/laithrafid/bookstore_utils-go/errors_utils"
+	"github.com/laithrafid/utils-go/errors_utils"
 )
 
 func RespondJson(w http.ResponseWriter, statusCode int, body interface{}) {

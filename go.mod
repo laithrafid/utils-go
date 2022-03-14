@@ -1,4 +1,4 @@
-module github.com/laithrafid/bookstore_utils-go
+module github.com/laithrafid/utils-go
 
 go 1.17
 
